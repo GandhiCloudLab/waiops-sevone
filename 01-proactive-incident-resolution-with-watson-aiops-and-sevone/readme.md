@@ -29,7 +29,11 @@ The `SevOne Probe` from Watson AIOps helps to create webhook endpoint to receive
 
 ## 4. Operational Architecture of the Demo
 
-Here is the operational Architecture. Here we are going to use an application called iLender which is a fintech app based on microservices and deployed on Kubernetes/Openshift platform. Watson AIOps AI Manager is installed another Openshift cluster. The application logs are send to Humio and WAIOps pick the logs from Humio for log anomaly processing. The SevOne is installed and monitoring the managed environment that includes the cluster where app is installed. The SevOne Probe is installed to push SevOne events into WAIOps.
+Here is the operational Architecture. 
+- Here we are going to use an application called `iLender` which is a fintech app based on microservices and deployed on Kubernetes/Openshift platform. 
+- Watson AIOps AI Manager is installed another Openshift cluster. 
+- The application logs are send to Humio and WAIOps pick the logs from Humio for log anomaly processing. - The SevOne is installed and monitoring the managed environment that includes the cluster where app is installed. 
+- The SevOne Probe is installed to push SevOne events into WAIOps.
 
 <img src="images/04-operational-arch.png">
 
@@ -39,7 +43,7 @@ Here is the WAIOps console.
 
 ### Application Resource
 
-Here is the `iLender` application imported into AIMgr as a Resource. This application has 28 resources available. 
+Here is the `iLender` application imported into WAIOps AIMgr as a Resource. This application has 28 resources available. 
 
 <img src="images/05-app.png">
 
@@ -128,18 +132,18 @@ The iLender application topology also shows the issues.
 
 
 ## 8. Story Detail and Runbook 
-Again, coming back to Story. I could see there is a runbook associated with this event.
+Again, coming back to Story. we could see there is a runbook associated with this event.
 
 Watson AIOPs has a comprehensive Runbook management system, which allows you to define runbooks, associate with the events and execute them. The runbooks can be manual, semi-automatic or fully automatic. The runbook association to an event happens automatically based on pre-configured rules defined at the time of creating the runbook. You can also configure the option to trigger the runbook automatically if an incident happens. In this case, the runbook is associated with this event based on the preconfigured rules and waiting for manual execution.
 
-I want to see the Preview of the Runbook details.
+We want to see the Preview of the Runbook details.
 
 <img src="images/18-story-details.png">
 
 
 ## 9. Execute  Runbook 
 
-Once I review the runbook details, I start the runbook to execute.
+Once we reviewd the runbook details, we start the runbook to execute.
 
 <img src="images/19-runbook1.png">
 <img src="images/19-runbook2.png">
@@ -147,7 +151,7 @@ Once I review the runbook details, I start the runbook to execute.
 
 ## 10. Resolve Story
 
-Once the runbook completes the execution, the problem is resolved, and I mark the story as closed.
+Once the runbook completes the execution, the problem is resolved, and we mark the story as closed.
 <img src="images/20-resolve.png">
 
 The story goes to resolved status.
