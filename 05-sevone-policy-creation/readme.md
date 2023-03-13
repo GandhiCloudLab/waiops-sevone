@@ -29,11 +29,16 @@ Enter the values as per screenshot.
 ![SevOne](./images/10-memory2.png)
 ![SevOne](./images/10-memory3.png)
 
-2. Create`Condition A` with the values
+2. Create`Condition A` with the values as below
+
+**Note:** Since it is a demo, We are not really creating memory related policy Indicator here.
+
 
 ![SevOne](./images/10-memory4.png)
 
-3. Create`Condition B` with the values
+3. Create`Condition B` with the values as below
+
+**Note:** Since it is a demo, We are not really creating memory related policy Indicator here.
 
 ![SevOne](./images/10-memory5.png)
 
@@ -92,7 +97,7 @@ Actually content as per [IBM Doc](https://www.ibm.com/docs/en/cloud-paks/cloud-p
 
 ![SevOne](./images/10-memory6.png)
 
-3. Create`Condition B` with the values
+3. Create`Condition B` with the values as below
 
 **Note:** Since it is a demo, We are not really creating memory related policy Indicator here.
 
@@ -149,34 +154,34 @@ Save the policy by selecting `Save` button.
 
 ### 2.1 Create Policy
 
-From the `policy browser` screen Choose `iLender memory Utilization is high` tab. (To create new policy need to click `Create Policy` menu but we go with edit flow)
+From the `policy browser` screen Choose `iLender CPU usage is high` tab. (To create new policy need to click `Create Policy` menu but we go with edit flow)
 
-![SevOne](./images/120-cpu0.png)
+![SevOne](./images/20-cpu0.png)
 
 ### 2.2 General Settings
 
 Enter the values as per screenshot. 
 
-![SevOne](./images/120-cpu1.png)
+![SevOne](./images/20-cpu1.png)
 
 ### 2.3 Trigger OnCondition 
 
 1. Enter the value for `Trigger message`. 
 
-![SevOne](./images/120-cpu2.png)
-![SevOne](./images/120-cpu3.png)
+![SevOne](./images/20-cpu2.png)
+![SevOne](./images/20-cpu3.png)
 
 2. Create`Condition A` with the values as below
 
 **Note:** Since it is a demo, We are not really creating cpu related policy Indicator here.
 
-![SevOne](./images/120-cpu4.png)
+![SevOne](./images/20-cpu4.png)
 
 3. Create`Condition B` with the values as below
 
 **Note:** Since it is a demo, We are not really creating cpu related policy Indicator here.
 
-![SevOne](./images/120-cpu5.png)
+![SevOne](./images/20-cpu5.png)
 
 4. Create`Condition Rules` both `1` and `2`
 
@@ -225,16 +230,20 @@ Actually content as per [IBM Doc](https://www.ibm.com/docs/en/cloud-paks/cloud-p
 
 1. Enter the value for `Clear message`. 
 
-![SevOne](./images/120-cpu6.png)
-![SevOne](./images/120-cpu7.png)
+![SevOne](./images/20-cpu6.png)
+![SevOne](./images/20-cpu7.png)
 
-2. Create`Condition A` with the values
+2. Create`Condition A` with the values as below
 
-![SevOne](./images/120-cpu6.png)
+**Note:** Since it is a demo, We are not really creating memory related policy Indicator here.
 
-3. Create`Condition B` with the values
+![SevOne](./images/20-cpu6.png)
 
-![SevOne](./images/120-cpu9.png)
+3. Create`Condition B` with the values as below
+
+**Note:** Since it is a demo, We are not really creating memory related policy Indicator here.
+
+![SevOne](./images/20-cpu9.png)
 
 4. Create`Condition Rules` both `1` and `2`
 
