@@ -29,7 +29,7 @@ cd files
 sh 10-install.sh
 ```
 
-- It would take around a minute to complete the istallation. 
+- It would take around a minute to complete the installation. 
 - The same script can be run again and again if the install stopped for any reason.
 
 #### 2.3. Output

@@ -1,11 +1,10 @@
-# Demo Setup - Proactive Incident Resoultion with Watson AIOps and SevOne
+# Demo Setup - Proactive Incident Resolution with Watson AIOps and SevOne
 
-This article explains about how to setup the `Proactive Incident Resoultion with Watson AIOps and SevOne` demo which is explained in the transcript  
+This article explains about how to setup the `Proactive Incident Resolution with Watson AIOps and SevOne` demo which is explained in the [transcript](../01-demo-transcript)
 
-The article is based on the the following
+The article is based on the following
  - RedHat OpenShift 4.10 on IBM Cloud (ROKS)
  - Watson AIOps 3.6.0
-
 
 ## Operational Architecture
 
@@ -16,7 +15,7 @@ Here is the Operational architecture that we are going to setup.
 - Humio logging system can be deployed on the same/another OCP cluster.
 - iLender Application can be deployed on the same/another OCP cluster.
 - SevOne is installed and available.
-- SevOne Probe is installed on the same cluter where WAIOps AIManager is installed.
+- SevOne Probe is installed on the same cluster where WAIOps AIManager is installed.
 
 <img src="images/architecture.png">
 
@@ -24,7 +23,7 @@ Here is the Operational architecture that we are going to setup.
 
 #### 1.1 Watson AIOps 3.6.0 AIMgr
 
-Watson AIOps 3.6.0 AIMgr is required for this Demo as a Pre-Requisite. If you want to install AIMgr on ROKS you can use this [Script](./41-install-aimgr-on-roks) to install.
+Watson AIOps 3.6.0 AIMgr is required for this Demo as a Pre-Requisite. If you want to install AIMgr on ROKS you can use this [Script](../41-install-aimgr-on-roks) to install.
 
 #### 1.2 SevOne
 
@@ -47,8 +46,6 @@ Steps are available [here ...](../31-configuring-sevOne-events-to-aimanager)
 ## 3. Setup Managed Environment
 
 #### 3.1 Install iLender app
-
-Install WAIOps SevOne Probe and Configure SevOne to forward events to the Probe.
 
 Install iLender app on the managed environment. It could be on the same OCP cluster where AIManager is installed.
 
@@ -92,7 +89,7 @@ Steps are available [here ...](./50-ai-model-log-anomaly)  (The steps are from W
 
 #### 6.2 Runbook Automation
 
-Need to create Training Definition for Log Anomaly Detection as like below.
+Need to create Runbook as like below.
 
 ![SevOne](./images/24-runbook1.png)
 ![SevOne](./images/24-runbook2.png)
@@ -110,7 +107,7 @@ Steps are available [here ...](./21-application-load-generation)  (The steps are
 
 #### 7.2 Log Anomaly Detection training 
 
-Create load in app, enable Data flow on humio integration, selction the mode, start the Log Anomaly Detection training.
+Create load in app, enable Data flow on humio integration, selection the mode, start the Log Anomaly Detection training.
 
 The trained log model should be like this.
 ![SevOne](./images/25-log-model2.png)
