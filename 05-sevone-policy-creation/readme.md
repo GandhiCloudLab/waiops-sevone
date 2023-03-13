@@ -235,13 +235,13 @@ Actually content as per [IBM Doc](https://www.ibm.com/docs/en/cloud-paks/cloud-p
 
 2. Create`Condition A` with the values as below
 
-**Note:** Since it is a demo, We are not really creating memory related policy Indicator here.
+**Note:** Since it is a demo, We are not really creating cpu related policy Indicator here.
 
 ![SevOne](./images/20-cpu6.png)
 
 3. Create`Condition B` with the values as below
 
-**Note:** Since it is a demo, We are not really creating memory related policy Indicator here.
+**Note:** Since it is a demo, We are not really creating cpu related policy Indicator here.
 
 ![SevOne](./images/20-cpu9.png)
 
