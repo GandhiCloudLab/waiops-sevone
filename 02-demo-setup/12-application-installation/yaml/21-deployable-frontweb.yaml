@@ -18,9 +18,6 @@ spec:
         app: ilender-application
         subname: frontweb
     spec:
-      serviceAccountName: ilender-service-account
-      nodeSelector:
-        kubernetes.io/hostname: 10.141.90.201
       containers:
         - name: ilender-frontweb
           image: "gandigit/ilender-frontweb-demo:0.0.1"

@@ -18,9 +18,6 @@ spec:
         app: ilender-application
         subname: user
     spec:
-      serviceAccountName: ilender-service-account
-      nodeSelector:
-        kubernetes.io/hostname: 10.141.90.201
       containers:
         - name: ilender-user
           image: "gandigit/ilender-user-demo:0.0.1"

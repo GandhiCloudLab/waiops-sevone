@@ -111,11 +111,11 @@ data:
   iLenderEventstreamTopicNotifyLoanRequestApproved: ilender-notify-loan-request-approved
   iLenderEventstreamTopicNotifyLoanOfferAccepted: ilender-notify-loan-offer-accepted
   iLenderEventstreamTopicNotifyLoanRequestCreated: ilender-notify-loan-request-created
-  iLenderEventstreamServerUrl: eventstreams-kafka-bootstrap-integration.gsidemos-7ec5d722a0ab3f463fdc90eeb94dbc70-0000.us-south.containers.appdomain.cloud:443
+  iLenderEventstreamServerUrl: eventstreams-kafka-bootstrap-aaaa.cloud:443
   iLenderEventstreamTruststoreLocation: /opt/ilender-eventstream.jks
   iLenderEventstreamTruststorePassword: changeit
-  iLenderEventstreamSCRAMUserName: ilender
-  iLenderEventstreamSCRAMPassword: test
+  iLenderEventstreamSCRAMUserName: aaaa
+  iLenderEventstreamSCRAMPassword: aaaa
   iLenderKafkaEnabled: "false"
   iLenderNotifyEnabled: "false"
   iLenderApiConnectEnabled: "false"
